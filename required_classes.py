@@ -4,6 +4,7 @@ import uuid
 from enum import Enum
 import numpy as np
 
+
 class Tipo_Bacteria(Enum):
     ACTIVA = 1
     MUERTA = 2
