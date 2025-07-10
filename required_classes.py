@@ -10,6 +10,7 @@ class Tipo_Bacteria(Enum):
     RESISTENTE = 3
     BIOFILM = 4
 
+
 # Eventos probabilisticos
 def aplicar_antibiotico(bacteria):
   if not bacteria.resistente:
