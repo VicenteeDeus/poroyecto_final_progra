@@ -7,7 +7,6 @@ import sys
 import cairo #genera una imagen en cada paso (para que pueda graficar se pasa a imagen el grafico)
 import io #<--#hace un buffer                (asi se ve la expansion de las bacterias)
 
-
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
 from gi.repository import Gtk, Gio, Adw, Gdk, GLib
