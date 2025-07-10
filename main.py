@@ -14,6 +14,7 @@ from gi.repository import Gtk, Gio, Adw, Gdk, GLib
 provider = Gtk.CssProvider()
 provider.load_from_path("style.css")
 
+
 def contador_de_resistencia(datos, total_pasos):
   arr = [0 for i in range(total_pasos)]
   for clave, valor in datos.items():
