@@ -21,6 +21,7 @@ def contador_de_resistencia(datos, total_pasos):
       if bacteria[3] == True:
         arr[clave-1] += 1
   return arr
+  
 
 class Simulador(Gtk.ApplicationWindow):
 
