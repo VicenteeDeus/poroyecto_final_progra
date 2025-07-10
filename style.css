@@ -1,0 +1,12 @@
+.mi-boton-content {
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.bin-container {
+  background-color: #B2BEB5;
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: #36454F;
+  font-weight: bold;
+}
